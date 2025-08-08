@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/shoppingprojectlive/static/css/main.1c6cc986.css",
+    "main.js": "/shoppingprojectlive/static/js/main.fd050a60.js",
+    "static/js/453.bac3bca2.chunk.js": "/shoppingprojectlive/static/js/453.bac3bca2.chunk.js",
+    "static/media/pineapple.jfif": "/shoppingprojectlive/static/media/pineapple.752d9420aeaf1b3cc75c.jfif",
+    "static/media/grapes.jfif": "/shoppingprojectlive/static/media/grapes.d969b11affad53cdce6c.jfif",
+    "static/media/apple.jfif": "/shoppingprojectlive/static/media/apple.f43b66a922440ec951dd.jfif",
+    "static/media/orange.jfif": "/shoppingprojectlive/static/media/orange.49e1d20989d8f836bc12.jfif",
+    "index.html": "/shoppingprojectlive/index.html",
+    "main.1c6cc986.css.map": "/shoppingprojectlive/static/css/main.1c6cc986.css.map",
+    "main.fd050a60.js.map": "/shoppingprojectlive/static/js/main.fd050a60.js.map",
+    "453.bac3bca2.chunk.js.map": "/shoppingprojectlive/static/js/453.bac3bca2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c6cc986.css",
+    "static/js/main.fd050a60.js"
+  ]
+}
