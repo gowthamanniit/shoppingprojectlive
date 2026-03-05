@@ -2,9 +2,12 @@ import React from 'react'
 import ItemCard from './ItemCard'
 import data from './data'
 const Home = () => {
+  const logoutfun=()=>{
+    window.location.href="http://localhost:3000"
+  }
   return (
     <>
-    <h1 className='text-center bg-info mt-5 mb-5'>Shopping Cart - Created By K.Gowthaman M.C.A.,</h1>
+    <h1 className='text-center bg-info mt-5 mb-5'>Shopping Cart - Created By K.Gowthaman M.C.A.,<button onClick={logoutfun}>➜]</button></h1>
 
     <div className='row justify-content-center'>
     {
