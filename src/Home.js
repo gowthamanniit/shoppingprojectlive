@@ -9,17 +9,14 @@ const Home = () => {
     window.location.href="http://localhost:3000"
   }
   const flattenData = (data) => {
-    return data.map(item => ({
-      //Date: item.date,
-      // Map nested properties to flat fields
-      //"Number Card": item.num_card.number || '', 
-      //"Number Check": item.num_check.number || '' 
-      name:item.name,
-        itemname:item.orders.map(i=>i.itemname)
-    
-    
-    }));
-  };
+     return data.reduce((accumulator, { name, orders }) => {
+    orders.forEach(({ itemname,price,quantity }) => {
+        accumulator.push({ name,itemname,price,quantity });
+    });
+    return accumulator;
+  }, []);
+};
+  
   const exportdata=async()=>{
     await axios.get("http://localhost:8099/api/products").then((res)=>{
       console.log(res.data)
